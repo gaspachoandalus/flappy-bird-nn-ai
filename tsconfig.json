@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "module": "Preserve",
+        "moduleResolution": "Bundler",
+        "sourceMap": true,
+        "target": "ES2022",
+        "lib": ["DOM", "es2022"],
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["src"]
+}
