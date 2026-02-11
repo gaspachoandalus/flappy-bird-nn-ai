@@ -1,5 +1,5 @@
 {
-    "name": "testsinfo",
+    "name": "flappy-bird-nn-ai",
     "version": "1.0.0",
     "description": "ai learns to play flappy bird",
     "main": "index.js",
@@ -11,17 +11,20 @@
     },
     "author": "",
     "license": "ISC",
+    "engines": {
+        "node": ">=24.0.0"
+    },
     "dependencies": {
         "@types/p5": "^1.7.6"
     },
     "devDependencies": {
-        "@eslint/js": "^9.2.0",
-        "eslint": "^8.57.0",
-        "globals": "^15.2.0",
-        "ts-loader": "^9.5.1",
-        "typescript": "^5.5.3",
-        "typescript-eslint": "^7.8.0",
-        "webpack-cli": "^5.1.4",
-        "webpack-dev-server": "^5.0.4"
+        "@eslint/js": "^9.17.0",
+        "eslint": "^9.17.0",
+        "globals": "^17.3.0",
+        "ts-loader": "^9.5.4",
+        "typescript": "^5.9.3",
+        "typescript-eslint": "^8.55.0",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.3"
     }
 }
